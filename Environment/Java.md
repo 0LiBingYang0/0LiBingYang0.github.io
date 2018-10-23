@@ -11,6 +11,8 @@ tar -zxvf jdk-8u181-linux-x64.tar.gz
 vim /etc/profile
 ![图3.jpg](https://upload-images.jianshu.io/upload_images/14498135-d88daa0f55d5e7f5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-4.验证jdk安装成功(图4)
+4.重启虚拟机或者执行 source /etc/profile
+
+5.验证jdk安装成功(图4)
 java -version
 ![图4.png](https://upload-images.jianshu.io/upload_images/14498135-d39ae9e082142ab5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
