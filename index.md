@@ -7,6 +7,8 @@
 - Linux
 	- [Day1](https://0libingyang0.github.io/Linux/day1)
 	- [Day2](https://0libingyang0.github.io/Linux/day2)
+	- [Day3](https://0libingyang0.github.io/Linux/day4)
+	- [Day4](https://0libingyang0.github.io/Linux/day4)
 - Linux环境配置
 	- [java环境配置](https://0libingyang0.github.io/Environment/Java)
 	- [Tomcat环境配置](https://0libingyang0.github.io/Environment/Tomcat)
