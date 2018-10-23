@@ -1,9 +1,9 @@
 # 欢迎访问李冰洋的博客
 ## 点击下面的链接进入相应内容的博客
 - git
-	- [git第一天](https://0libingyang0.github.io/Linux/day1)
-	- [git第二天](https://0libingyang0.github.io/Linux/day2)
-	- [凯哥的总结](https://0libingyang0.github.io/Linux/lck)
+	- [day1](https://0libingyang0.github.io/Linux/day1)
+	- [day2](https://0libingyang0.github.io/Linux/day2)
+	- [lck](https://0libingyang0.github.io/Linux/lck)
 - Linux
 	- [Day1](https://0libingyang0.github.io/Linux/day1)
 	- [Day2](https://0libingyang0.github.io/Linux/day2)
