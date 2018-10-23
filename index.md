@@ -10,6 +10,6 @@
 	- [Day3](https://0libingyang0.github.io/Linux/day4)
 	- [Day4](https://0libingyang0.github.io/Linux/day4)
 - Linux环境配置
-	- [java环境配置](https://0libingyang0.github.io/Environment/Java)
-	- [Tomcat环境配置](https://0libingyang0.github.io/Environment/Tomcat)
+	- [java](https://0libingyang0.github.io/Environment/Java)
+	- [Tomcat](https://0libingyang0.github.io/Environment/Tomcat)
 - Hadoop 
