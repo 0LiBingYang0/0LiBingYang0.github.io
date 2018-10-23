@@ -43,13 +43,34 @@
 	首先分组的序号是从1开始的并且是按照从左到右的顺序排的
 	要获取使用\分组的序号来进行获取,例如\1就是个占位符
 	
-awk 行读取
-	基本格式: awk options选项 'command' file
-	NR 行号
-	NF 列数
-	$1,$n
-	-F 设置分隔符 默认情况下是使用 " "空格来进行的分割
-	
-	awk的扩展格式
-	awk options选项 'BEGIN{} command END{}' file
+## awk
+
+### awk [选项] 'command' filename
+
+-F 分隔符,默认使用" "空格来切割
+
+- NR 行号
+- NF 列号(通过分隔符分成的组数)
+- $1
+- 输出：
+  - {print }
+  - {prinf("%s\n",)}
+- 使用正则：
+  - ~/正则规则/
+  - ！~// 正则规则取非
+- if语句  
+  
+### 拓展格式：
+### awk [选项] 'BEGIN{} {} END{}' filename
+- 在开始/结束时执行一遍
+- 初始化变量：eg:BEGIN{count=0}
+- for循环
+
+* 获取uid>500的用户信息
+
+![11.png](https://upload-images.jianshu.io/upload_images/14466577-99199e0e6c71cfe9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+* 获取以j开头的用户信息，遍历输出
+
+![22.png](https://upload-images.jianshu.io/upload_images/14466577-224fac0b52fab746.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
