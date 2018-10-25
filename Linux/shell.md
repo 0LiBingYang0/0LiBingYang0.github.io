@@ -1,147 +1,147 @@
 # shell
 
-## shell»ù´¡
+## shellåŸºç¡€
 
-### shell¼ò½é
-- shell¸ÅÊö	
-	- ShellÊÇÒ»¸ö¹¦ÄÜÇ¿´óµÄ±à³ÌÓïÑÔ£¬Ò×±àĞ´£¬Ò×µ÷ÊÔ£¬Áé»îĞÔ½ÏÇ¿
-	- ShellÊÇ½âÊÍÖ´ĞĞµÄ½Å±¾£¬ÔÚshellÖĞ¿ÉÒÔÖ±½Óµ÷ÓÃLinuxÏµÍ³ÃüÁî
-- shell·ÖÀà
-	- Bourne Shell£º´Ó1979ÄêÆğ£¬Unix¾ÍÊÇÓÃBourne Shell£¬BourneShellµÄÖ÷ÎÄ¼şÃûÎª sh
-	- C Shell£ºC ShellÖ÷ÒªÔÚBSD°æµÄUnixÏµÍ³ÖĞÊ¹ÓÃ
-- ×¢Òâ
-	- ÒÔÉÏÁ½ÖÖÓï·¨»¥²»¼æÈİ£¬Bourne ¼Ò×åÖ÷Òª°üÀ¨sh£¬ksh£¬bash£¬psh£¬zsh£»  C¼Ò×åÖ÷Òª°üÀ¨£ºcsh£¬tcsh
-	- Ò»¸öÏµÍ³¿ÉÒÔ´æÔÚ¶à¸öshell£¬¿ÉÒÔÍ¨¹ıcat /etc/shellsÃüÁî²é¿´ÏµÍ³ÖĞ°²×°µÄshell£¬²»Í¬µÄshell¿ÉÄÜÖ§³ÖµÄÃüÁîÓï·¨ÊÇ²»ÏàÍ¬µÄ
-- shell»ù±¾¸ñÊ½
-	- ´úÂëĞ´ÔÚÆÕÍ¨ÎÄ±¾ÎÄ¼şÖĞ£¬Í¨³£ÒÔ.sh½áÎ²,ÀıÈç:[root@master ~]# vim helloworld.sh
-	- Ğ´Íê±£´æÍË³ö
-	- ½Å±¾µÄµÚÒ»ĞĞÊÇ¹Ì¶¨ĞèÒªµÄ,±íÃ÷ÓÃÄÄÒ»ÖÖshell½âÎöÆ÷À´Ö´ĞĞÎÒÃÇµÄÕâ¸ö½Å±¾³ÌĞò
-- shellµÄÖ´ĞĞ·½Ê½
-	- sh·½Ê½ ÀıÈç:sh helloworld.sh ´Ë·½Ê½ÊÇÖ±½ÓÖ¸¶¨ÓÃÏµÍ³Ä¬ÈÏµÄbash shell½âÊÍÖ´ĞĞµÄ
-	- source·½Ê½ ÀıÈç: . helloworld.sh
-		- sourceÃüÁîÒ²³ÆÎª¡°µãÃüÁî¡±£¬Ò²¾ÍÊÇÒ»¸öµã·ûºÅ£¨.£©,ÊÇbashµÄÄÚ²¿ÃüÁî
-		- Ê¹Shell¶ÁÈëÖ¸¶¨µÄShell³ÌĞòÎÄ¼ş²¢ÒÀ´ÎÖ´ĞĞÎÄ¼şÖĞµÄËùÓĞÓï¾ä
-		- sourceÃüÁîÍ¨³£ÓÃÓÚÖØĞÂÖ´ĞĞ¸ÕĞŞ¸ÄµÄ³õÊ¼»¯ÎÄ¼ş£¬Ê¹Ö®Á¢¼´ÉúĞ§£¬¶ø²»±Ø×¢Ïú²¢ÖØĞÂµÇÂ¼
-	- Ö±½ÓÖ´ĞĞ¸Ã½Å±¾
+### shellç®€ä»‹
+- shellæ¦‚è¿°	
+	- Shellæ˜¯ä¸€ä¸ªåŠŸèƒ½å¼ºå¤§çš„ç¼–ç¨‹è¯­è¨€ï¼Œæ˜“ç¼–å†™ï¼Œæ˜“è°ƒè¯•ï¼Œçµæ´»æ€§è¾ƒå¼º
+	- Shellæ˜¯è§£é‡Šæ‰§è¡Œçš„è„šæœ¬ï¼Œåœ¨shellä¸­å¯ä»¥ç›´æ¥è°ƒç”¨Linuxç³»ç»Ÿå‘½ä»¤
+- shellåˆ†ç±»
+	- Bourne Shellï¼šä»1979å¹´èµ·ï¼ŒUnixå°±æ˜¯ç”¨Bourne Shellï¼ŒBourneShellçš„ä¸»æ–‡ä»¶åä¸º sh
+	- C Shellï¼šC Shellä¸»è¦åœ¨BSDç‰ˆçš„Unixç³»ç»Ÿä¸­ä½¿ç”¨
+- æ³¨æ„
+	- ä»¥ä¸Šä¸¤ç§è¯­æ³•äº’ä¸å…¼å®¹ï¼ŒBourne å®¶æ—ä¸»è¦åŒ…æ‹¬shï¼Œkshï¼Œbashï¼Œpshï¼Œzshï¼›  Cå®¶æ—ä¸»è¦åŒ…æ‹¬ï¼šcshï¼Œtcsh
+	- ä¸€ä¸ªç³»ç»Ÿå¯ä»¥å­˜åœ¨å¤šä¸ªshellï¼Œå¯ä»¥é€šè¿‡cat /etc/shellså‘½ä»¤æŸ¥çœ‹ç³»ç»Ÿä¸­å®‰è£…çš„shellï¼Œä¸åŒçš„shellå¯èƒ½æ”¯æŒçš„å‘½ä»¤è¯­æ³•æ˜¯ä¸ç›¸åŒçš„
+- shellåŸºæœ¬æ ¼å¼
+	- ä»£ç å†™åœ¨æ™®é€šæ–‡æœ¬æ–‡ä»¶ä¸­ï¼Œé€šå¸¸ä»¥.shç»“å°¾,ä¾‹å¦‚:[root@master ~]# vim helloworld.sh
+	- å†™å®Œä¿å­˜é€€å‡º
+	- è„šæœ¬çš„ç¬¬ä¸€è¡Œæ˜¯å›ºå®šéœ€è¦çš„,è¡¨æ˜ç”¨å“ªä¸€ç§shellè§£æå™¨æ¥æ‰§è¡Œæˆ‘ä»¬çš„è¿™ä¸ªè„šæœ¬ç¨‹åº
+- shellçš„æ‰§è¡Œæ–¹å¼
+	- shæ–¹å¼ ä¾‹å¦‚:sh helloworld.sh æ­¤æ–¹å¼æ˜¯ç›´æ¥æŒ‡å®šç”¨ç³»ç»Ÿé»˜è®¤çš„bash shellè§£é‡Šæ‰§è¡Œçš„
+	- sourceæ–¹å¼ ä¾‹å¦‚: . helloworld.sh
+		- sourceå‘½ä»¤ä¹Ÿç§°ä¸ºâ€œç‚¹å‘½ä»¤â€ï¼Œä¹Ÿå°±æ˜¯ä¸€ä¸ªç‚¹ç¬¦å·ï¼ˆ.ï¼‰,æ˜¯bashçš„å†…éƒ¨å‘½ä»¤
+		- ä½¿Shellè¯»å…¥æŒ‡å®šçš„Shellç¨‹åºæ–‡ä»¶å¹¶ä¾æ¬¡æ‰§è¡Œæ–‡ä»¶ä¸­çš„æ‰€æœ‰è¯­å¥
+		- sourceå‘½ä»¤é€šå¸¸ç”¨äºé‡æ–°æ‰§è¡Œåˆšä¿®æ”¹çš„åˆå§‹åŒ–æ–‡ä»¶ï¼Œä½¿ä¹‹ç«‹å³ç”Ÿæ•ˆï¼Œè€Œä¸å¿…æ³¨é”€å¹¶é‡æ–°ç™»å½•
+	- ç›´æ¥æ‰§è¡Œè¯¥è„šæœ¬
 	
-### shell±à³Ì
-- ¸ÅÊö
-	- Linux»·¾³ÖĞ£¬Shell²»½öÊÇ³£ÓÃµÄÃüÁî½âÊÍ³ÌĞò£¬¶øÇÒÊÇ¸ß¼¶±à³ÌÓïÑÔ¡£ÓÃ»§¿ÉÒÔÍ¨¹ı±àĞ´Shell³ÌĞòÀ´Íê³É´óÁ¿ÈÎÎñµÄ×Ô¶¯»¯
-	- Shell±à³ÌÓïÑÔ£¬ËüÓĞ±äÁ¿¡¢¹Ø¼ü×ÖÒÔ¼°¸÷ÖÖ¿ØÖÆÓï¾ä£¬±ÈÈçif¡¢case¡¢while¡¢forµÈÓï¾ä£¬Ö§³Öº¯ÊıÄ£¿é£¬ÓĞ×Ô¼ºµÄÓï·¨½á¹¹¡£
-- shell»ù±¾Óï·¨
-	- ÏµÍ³±äÁ¿:Í¨¹ısetÃüÁî²é¿´ÏµÍ³±äÁ¿,³£ÓÃµÄÏµÍ³±äÁ¿ÓĞ $PWD $SHELL #USER $HOME
-	- ×Ô¶¨Òå±äÁ¿
-		- Ë«ÒıºÅ£ºÔÊĞíÍ¨¹ı$·ûºÅÒıÓÃÆä±äÁ¿Öµ
-		- µ¥ÒıºÅ£º½ûÖ¹ÒıÓÃÆäËû±äÁ¿Öµ£¬$ÊÓÎªÆÕÍ¨×Ö·û
-		- ·´Æ²ºÅ£ºÃüÁîÌæ»»£¬ÌáÈ¡ÃüÁîÖ´ĞĞºóµÄÊä³ö½á¹û£¬Ò²¿ÉÓÃ$(ÃüÁî)
-	- ´Ó¼üÅÌÊäÈëÄÚÈİ±äÎª¸³Öµ:read  [-p  "ÌáÊ¾ĞÅÏ¢"]  ±äÁ¿Ãû
-	- readÃüÁî
-		* read -p(ÌáÊ¾Óï¾ä)-n(×Ö·û¸öÊı) -t(µÈ´ıÊ±¼ä)?
+### shellç¼–ç¨‹
+- æ¦‚è¿°
+	- Linuxç¯å¢ƒä¸­ï¼ŒShellä¸ä»…æ˜¯å¸¸ç”¨çš„å‘½ä»¤è§£é‡Šç¨‹åºï¼Œè€Œä¸”æ˜¯é«˜çº§ç¼–ç¨‹è¯­è¨€ã€‚ç”¨æˆ·å¯ä»¥é€šè¿‡ç¼–å†™Shellç¨‹åºæ¥å®Œæˆå¤§é‡ä»»åŠ¡çš„è‡ªåŠ¨åŒ–
+	- Shellç¼–ç¨‹è¯­è¨€ï¼Œå®ƒæœ‰å˜é‡ã€å…³é”®å­—ä»¥åŠå„ç§æ§åˆ¶è¯­å¥ï¼Œæ¯”å¦‚ifã€caseã€whileã€forç­‰è¯­å¥ï¼Œæ”¯æŒå‡½æ•°æ¨¡å—ï¼Œæœ‰è‡ªå·±çš„è¯­æ³•ç»“æ„ã€‚
+- shellåŸºæœ¬è¯­æ³•
+	- ç³»ç»Ÿå˜é‡:é€šè¿‡setå‘½ä»¤æŸ¥çœ‹ç³»ç»Ÿå˜é‡,å¸¸ç”¨çš„ç³»ç»Ÿå˜é‡æœ‰ $PWD $SHELL #USER $HOME
+	- è‡ªå®šä¹‰å˜é‡
+		- åŒå¼•å·ï¼šå…è®¸é€šè¿‡$ç¬¦å·å¼•ç”¨å…¶å˜é‡å€¼
+		- å•å¼•å·ï¼šç¦æ­¢å¼•ç”¨å…¶ä»–å˜é‡å€¼ï¼Œ$è§†ä¸ºæ™®é€šå­—ç¬¦
+		- åæ’‡å·ï¼šå‘½ä»¤æ›¿æ¢ï¼Œæå–å‘½ä»¤æ‰§è¡Œåçš„è¾“å‡ºç»“æœï¼Œä¹Ÿå¯ç”¨$(å‘½ä»¤)
+	- ä»é”®ç›˜è¾“å…¥å†…å®¹å˜ä¸ºèµ‹å€¼:read  [-p  "æç¤ºä¿¡æ¯"]  å˜é‡å
+	- readå‘½ä»¤
+		* read -p(æç¤ºè¯­å¥)-n(å­—ç¬¦ä¸ªæ•°) -t(ç­‰å¾…æ—¶é—´)?
 		* read -p "please input your name: " NAME
 		* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-300286980bacd687.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ½«ÃüÁîµÄ·µ»ØÖµ¸³¸ø±äÁ¿
-		* A=`ls -la` ·´ÒıºÅ£¬ÔËĞĞÀïÃæµÄÃüÁî£¬²¢°Ñ½á¹û·µ»Ø¸ø±äÁ¿A
-		* A=$(ls -la) µÈ¼ÛÓÚ·´ÒıºÅ
-	- È¡Ïû±äÁ¿
+	- å°†å‘½ä»¤çš„è¿”å›å€¼èµ‹ç»™å˜é‡
+		* A=`ls -la` åå¼•å·ï¼Œè¿è¡Œé‡Œé¢çš„å‘½ä»¤ï¼Œå¹¶æŠŠç»“æœè¿”å›ç»™å˜é‡A
+		* A=$(ls -la) ç­‰ä»·äºåå¼•å·
+	- å–æ¶ˆå˜é‡
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-8c2423757062b978.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÌØÊâ±äÁ¿
+	- ç‰¹æ®Šå˜é‡
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-7506afd3a43fc95f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-- ÔËËã·û
-	- ËãÊıÔËËã
+- è¿ç®—ç¬¦
+	- ç®—æ•°è¿ç®—
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-c5d7141000a2df7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ³£ÓÃÔËËã·û
+	- å¸¸ç”¨è¿ç®—ç¬¦
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-7a541b264943ea1e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-- Ìõ¼ş²âÊÔ
-	- testÃüÁî
+- æ¡ä»¶æµ‹è¯•
+	- testå‘½ä»¤
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-a0d4e8fdceba2b92.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÎÄ¼ş²âÊÔ
+	- æ–‡ä»¶æµ‹è¯•
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-28d12b1bf0fdb105.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-0dd6e22d2260ed56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg(·µ»Ø1±íÊ¾Ìõ¼ş²»³ÉÁ¢,·µ»Ø0±íÊ¾Ìõ¼ş³ÉÁ¢) echo $? Êä³öÉÏÒ»ÌõÖ¸Áî½á¹û·µ»ØÖµ
+	* eg(è¿”å›1è¡¨ç¤ºæ¡ä»¶ä¸æˆç«‹,è¿”å›0è¡¨ç¤ºæ¡ä»¶æˆç«‹) echo $? è¾“å‡ºä¸Šä¸€æ¡æŒ‡ä»¤ç»“æœè¿”å›å€¼
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-5294ee208f9f91ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÎÄ¼şÈ¨ÏŞ²âÊÔ:¸ñÊ½ [ ²Ù×÷·û ÎÄ¼ş»òÄ¿Â¼ ]
-	* ³£ÓÃµÄ²âÊÔ·û²Ù×÷
+	- æ–‡ä»¶æƒé™æµ‹è¯•:æ ¼å¼ [ æ“ä½œç¬¦ æ–‡ä»¶æˆ–ç›®å½• ]
+	* å¸¸ç”¨çš„æµ‹è¯•ç¬¦æ“ä½œ
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-5fad6ec61e100b7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* eg:
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-1bb655255e9a2df7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÊıÖµ±È½Ï
+	- æ•°å€¼æ¯”è¾ƒ
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-816d5443fb7d855f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* eg: 
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-1edbff1f821849d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ×Ö·û´®±È½Ï
+	- å­—ç¬¦ä¸²æ¯”è¾ƒ
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-3e08a0a40bdf1f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-97d01f4f4c15bbfb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-- ¿ØÖÆÁ÷³Ì
-	- ifÓï¾ä½á¹¹
-	* µ¥·ÖÖ§½á¹¹
+- æ§åˆ¶æµç¨‹
+	- ifè¯­å¥ç»“æ„
+	* å•åˆ†æ”¯ç»“æ„
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-5e1d457be126ce1d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* Ë«·ÖÖ§½á¹¹
+	* åŒåˆ†æ”¯ç»“æ„
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-6c78f6badeba1391.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* ¶à·ÖÖ§½á¹¹
+	* å¤šåˆ†æ”¯ç»“æ„
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-48de0ab91e666ce8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-00eb1b69409ef621.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg:ÅĞ¶Ï·ÖÊı·¶Î§,·Ö³öÓÅĞã¼¸¸ö²»ºÏ¸ñÈı¸ö³É¼¨µµ
+	* eg:åˆ¤æ–­åˆ†æ•°èŒƒå›´,åˆ†å‡ºä¼˜ç§€å‡ ä¸ªä¸åˆæ ¼ä¸‰ä¸ªæˆç»©æ¡£
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-e43b5608e3605f88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- caseÓï¾ä½á¹¹
-	* Óï·¨
+	- caseè¯­å¥ç»“æ„
+	* è¯­æ³•
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-7b80fadf5309e878.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-d2c21c7b13b26116.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg:ÌáÊ¾ÓÃ»§ÊäÈëÒ»¸ö×Ö·û,ÅĞ¶Ï¸Ã×Ö·ûÊÇ×ÖÄ¸Êı×Ö»òÕßÆäËû×Ö·û
+	* eg:æç¤ºç”¨æˆ·è¾“å…¥ä¸€ä¸ªå­—ç¬¦,åˆ¤æ–­è¯¥å­—ç¬¦æ˜¯å­—æ¯æ•°å­—æˆ–è€…å…¶ä»–å­—ç¬¦
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-9aa1a23d165cbd29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-- Ñ­»·Óï¾ä
-	- forÓï¾ä½á¹¹
-	* Óï·¨
+- å¾ªç¯è¯­å¥
+	- forè¯­å¥ç»“æ„
+	* è¯­æ³•
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-cc22a45a58d4413f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-071278bd0b0abed5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
-	eg: ÅúÁ¿Ìí¼ÓÓÃ»§:ÓÃ»§Ãû´æ·ÅÔÚusers.txtÎÄ¼şÖĞ,Ã¿ĞĞÒ»¸ö
+	eg: æ‰¹é‡æ·»åŠ ç”¨æˆ·:ç”¨æˆ·åå­˜æ”¾åœ¨users.txtæ–‡ä»¶ä¸­,æ¯è¡Œä¸€ä¸ª
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-31162eea4a82b597.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- for....do.....done µÄÊıÖµ´¦Àí
+	- for....do.....done çš„æ•°å€¼å¤„ç†
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-8bd2bce8ce33911e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)	
-	-whileÓï¾äµÄ½á¹¹
-	* Óï·¨
+	-whileè¯­å¥çš„ç»“æ„
+	* è¯­æ³•
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-491e13643ab96a3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg1:ÅúÁ¿Ìí¼ÓÓÃ»§
+	* eg1:æ‰¹é‡æ·»åŠ ç”¨æˆ·
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-9db3995946e30dc6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg2:¼ÆËã1µ½100Êı×ÖÖ®ºÍ
+	* eg2:è®¡ç®—1åˆ°100æ•°å­—ä¹‹å’Œ
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-05b8472878c4d365.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	* eg3:´òÓ¡¾Å¾Å³Ë·¨±í
+	* eg3:æ‰“å°ä¹ä¹ä¹˜æ³•è¡¨
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-c9eed7a007fbb34e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-- ×ÛºÏ°¸Àı
-	- ²ÂÉÌÆ·¼Û¸ñÓÎÏ·
+- ç»¼åˆæ¡ˆä¾‹
+	- çŒœå•†å“ä»·æ ¼æ¸¸æˆ
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-12923d3226dc8059.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-dbf1fd961d49a736.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- shell×Ô¶¨Òåº¯Êı
-	* 1.±ØĞëÔÚµ÷ÓÃº¯ÊıµØ·½Ö®Ç°ÏÈÉùÃ÷º¯Êı,shell½Å±¾ÊÇÖğĞĞÔËĞĞµÄ,²»»áÏñÆäËûÓïÑÔÒ»ÑùÏÈÔ¤±àÒë
-	* 2.º¯Êı·µ»ØÖÁÖ»ÄÜÍ¨¹ı$?ÏµÍ³±äÁ¿»ñµÃ,¿ÉÒÔÏÔÊ¾¼Ó:return·µ»Ø,Èç¹û²»¼Ó,½¯âù×îºóÒ»ÌõÃüÁîÔËĞĞ½á¹û,×÷Îª·µ»ØÖµ.returnºó¸úÊıÖµn(0-255)
-	* Óï·¨
+	- shellè‡ªå®šä¹‰å‡½æ•°
+	* 1.å¿…é¡»åœ¨è°ƒç”¨å‡½æ•°åœ°æ–¹ä¹‹å‰å…ˆå£°æ˜å‡½æ•°,shellè„šæœ¬æ˜¯é€è¡Œè¿è¡Œçš„,ä¸ä¼šåƒå…¶ä»–è¯­è¨€ä¸€æ ·å…ˆé¢„ç¼–è¯‘
+	* 2.å‡½æ•°è¿”å›è‡³åªèƒ½é€šè¿‡$?ç³»ç»Ÿå˜é‡è·å¾—,å¯ä»¥æ˜¾ç¤ºåŠ :returnè¿”å›,å¦‚æœä¸åŠ ,è’‹æ€¡æœ€åä¸€æ¡å‘½ä»¤è¿è¡Œç»“æœ,ä½œä¸ºè¿”å›å€¼.returnåè·Ÿæ•°å€¼n(0-255)
+	* è¯­æ³•
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-68831612dca76e3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### Bash
-	- ¼ò½é
-	* Bash£¨ Bourne Again SHell£©ÊÇGNU¼Æ»®µÄÒ»¸ö×é¼ş£¬ÓëUnixÉÏµÄBourne ShellÍêÈ«¼æÈİ£¬ÊÇÆäÔöÇ¿°æ±¾£»Ö§³ÖÃüÁîĞĞÊäÈë¡¢²Ù×÷ÀúÊ·¡¢¿ì½İ¼ü¡¢ÊäÈëÊä³öÖØ¶¨Ïò¡¢¹ÜµÀ¡¢±äÁ¿µÈ¹¦ÄÜ¡£
-#### bashÃüÁî
-	- history ÔÚBashÖĞÊäÈëhistoryÖ¸Áî¿ÉÒÔ²éÑ¯ÓÃ»§µÄ¹ıÍù²Ù×÷
-	* -c:Çå³ıÀúÊ·ÃüÁî
-	* -w:°Ñ»º´æµÄÀúÊ·ÃüÁîĞ´ÈëÀúÊ·ÃüÁî±£´æÎÄ¼ş ±£´æµÄÎ»ÖÃÎª ~/.bash_history
-	- Tab°´¼ü ²¹È«ÃüÁî,Á¬ĞøÁ½ÏÂ[Tab] ¿ÉÒÔÊä³öÒÔÇ°Ãæ×ÖÄ¸¿ªÍ·µÄËùÓĞÃüÁî
+	- ç®€ä»‹
+	* Bashï¼ˆ Bourne Again SHellï¼‰æ˜¯GNUè®¡åˆ’çš„ä¸€ä¸ªç»„ä»¶ï¼Œä¸Unixä¸Šçš„Bourne Shellå®Œå…¨å…¼å®¹ï¼Œæ˜¯å…¶å¢å¼ºç‰ˆæœ¬ï¼›æ”¯æŒå‘½ä»¤è¡Œè¾“å…¥ã€æ“ä½œå†å²ã€å¿«æ·é”®ã€è¾“å…¥è¾“å‡ºé‡å®šå‘ã€ç®¡é“ã€å˜é‡ç­‰åŠŸèƒ½ã€‚
+#### bashå‘½ä»¤
+	- history åœ¨Bashä¸­è¾“å…¥historyæŒ‡ä»¤å¯ä»¥æŸ¥è¯¢ç”¨æˆ·çš„è¿‡å¾€æ“ä½œ
+	* -c:æ¸…é™¤å†å²å‘½ä»¤
+	* -w:æŠŠç¼“å­˜çš„å†å²å‘½ä»¤å†™å…¥å†å²å‘½ä»¤ä¿å­˜æ–‡ä»¶ ä¿å­˜çš„ä½ç½®ä¸º ~/.bash_history
+	- TabæŒ‰é”® è¡¥å…¨å‘½ä»¤,è¿ç»­ä¸¤ä¸‹[Tab] å¯ä»¥è¾“å‡ºä»¥å‰é¢å­—æ¯å¼€å¤´çš„æ‰€æœ‰å‘½ä»¤
 	- alias
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-114e2df712098ba3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÖØ¶¨Ïò²Ù×÷
+	- é‡å®šå‘æ“ä½œ
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-657064f07fee4518.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ¹ÜµÀ·û
+	- ç®¡é“ç¬¦
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-277e1fe663ef2612.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- Í¨Åä·û
+	- é€šé…ç¬¦
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-80af32f5025cda21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ÆäËûÌØÊâ·ûºÅ
+	- å…¶ä»–ç‰¹æ®Šç¬¦å·
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-5edc7cb6f6ccc826.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ³£ÓÃÈÈ¼ü
+	- å¸¸ç”¨çƒ­é”®
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-7ef9c6aecf16b03d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- ½ØÈ¡ÃüÁî(cut)
-	* Óï·¨: cut <Ñ¡Ïî> ÎÄ¼ş
-	* ³£ÓÃÑ¡Ïî
-	* -d:Ö¸¶¨·Ö¸ô·û
-	* -f:ÒÀ¾İ -dµÄ·Ö¸ô×Ö·û½«Ò»¶ÎĞÅÏ¢·Ö¸î³ÉÎªÊı¶Î,ÓÃ-fÈ¡³öµÚ¼¸¶ÎµÄÒâË¼
-	* -c:Ö¸¶¨¼¸¸ö×Ö·û¶ÔÓ¦µÄÁĞ
+	- æˆªå–å‘½ä»¤(cut)
+	* è¯­æ³•: cut <é€‰é¡¹> æ–‡ä»¶
+	* å¸¸ç”¨é€‰é¡¹
+	* -d:æŒ‡å®šåˆ†éš”ç¬¦
+	* -f:ä¾æ® -dçš„åˆ†éš”å­—ç¬¦å°†ä¸€æ®µä¿¡æ¯åˆ†å‰²æˆä¸ºæ•°æ®µ,ç”¨-få–å‡ºç¬¬å‡ æ®µçš„æ„æ€
+	* -c:æŒ‡å®šå‡ ä¸ªå­—ç¬¦å¯¹åº”çš„åˆ—
 	* ![image.png](https://upload-images.jianshu.io/upload_images/14498135-85463d693e29c610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 	
