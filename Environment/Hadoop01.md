@@ -2,7 +2,7 @@
 - 在配置Hadoop环境之前先确保系统中Java环境已经配置好
 	- 验证Java配置好的Java环境
 	- ![image.png](https://upload-images.jianshu.io/upload_images/14498135-5624ff1b2dfd1e51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-	- 如果还未配置,先配置环境 [Java环境](https://0libingyang0.github.io/Environment/Java)
+	- 如果还未配置,先[配置Java环境](https://0libingyang0.github.io/Environment/Java)
 - 配置好Java环境后
 	- 1.将hadoop2.7.3解压 tar -zxvf hadoop2.7.3.gz.tar
 	- 2.解压完毕后编辑.bash_profile或者/etc/profile文件
