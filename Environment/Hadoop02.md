@@ -8,8 +8,8 @@
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-c2159d56e5c90149.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 	- 2. vim core-site.xml将
-	'<'property'>'  
-        '<'name'>'hadoop.tmp.dir</name>  
+	`<`property`>`  
+        '<'name`>`hadoop.tmp.dir</name>  
         <value>/home/111/tmp</value>
     </property>  
     <property>  
