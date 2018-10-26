@@ -13,4 +13,5 @@
 	- [java](https://0libingyang0.github.io/Environment/Java)
 	- [Tomcat](https://0libingyang0.github.io/Environment/Tomcat)
 	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
+	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
 - Hadoop 
