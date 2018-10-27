@@ -40,7 +40,6 @@
 		`<`name`>`mapreduce.framework.name`<`/name`>`  
 		`<`value`>`yarn`<`/value`>`  
 	`<`/property`>`  
-  
 	`<`property`>`  
 		`<`name`>`yarn.nodemanager.aux-services`<`/name`>`  
 		`<`value`>`mapreduce_shuffle`<`/value`>`  
