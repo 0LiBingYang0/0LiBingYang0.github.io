@@ -47,17 +47,17 @@
 
 ### awk [选项] 'command' filename
 
--F 分隔符,默认使用" "空格来切割
+-F 设置分隔符,默认使用" "空格来切割  NR 行号   NF 列号(通过分隔符分成的组数)   $n 以分隔符分隔后的n段数据以$1-$n表示
+awk -F ':' '{print NR}' /etc/passwd 以":"为分隔符将/etc/passwd中的行数输出
+eg: awk -F ':' '{printf("Line:%s Col:%s User:%s\n",NR,NF,$1)}' /etc/passwd
 
-- NR 行号
-- NF 列号(通过分隔符分成的组数)
-- $1
+
 - 输出：
-  - {print }
-  - {prinf("%s\n",)}
+  - {print "输出内容"}直接输出
+  - {prinf("%s\n",$n)}输出内容的格式,内容
 - 使用正则：
-  - ~/正则规则/
-  - ！~// 正则规则取非
+~/正则规则/
+！~// 正则规则取非
 - if语句  
   
 ### 拓展格式：
