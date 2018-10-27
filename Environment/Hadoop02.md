@@ -10,6 +10,7 @@
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-c2159d56e5c90149.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 2.vim core-site.xml将
+
 	`<`property`>`  
         `<`name`>`hadoop.tmp.dir`<`/name`>`  
         `<`value`>`/home/111/tmp`<`/value`>`
@@ -18,11 +19,13 @@
         `<`name`>`fs.defaultFS`<`/name`>`  
         `<`value`>`hdfs://localhost:9000`<`/value`>`  
     `<`/property`>`
+	
     写入	
 	
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-e7c71fb27826db63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 3.vim hdfs-site.xml将 
+
     `<`property`>`    
         `<`name`>`dfs.namenode.name.dir`<`/name`>`    
         `<`value`>`file:/home/111/dfs/name`<`/value`>`    
@@ -31,11 +34,13 @@
         `<`name`>`dfs.datanode.data.dir`<`/name`>`    
         `<`value`>`file:/home/111/dfs/data`<`/value`>`    
     `<`/property`>`
+	
 	写入
 	
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-57b6179e5d090977.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 - 4.vim yarn-site.xml 将
+
 	`<`property`>`  
 		`<`name`>`mapreduce.framework.name`<`/name`>`  
 		`<`value`>`yarn`<`/value`>`  
@@ -43,17 +48,21 @@
 	`<`property`>`  
 		`<`name`>`yarn.nodemanager.aux-services`<`/name`>`  
 		`<`value`>`mapreduce_shuffle`<`/value`>`  
-	`<`/property`>`写入
+	`<`/property`>`
+	
+	写入
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14498135-7152cc70687e93a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 - 5.配置mapred-site.xml 
 	- (1) cp mapred-site.xml.template mapred-site.xml(从mapred-site.xml.template(msx模板)将msx复制出来)
 	- (2) vim mapred-site.xml将
+	
 		`<`property`>`
 			`<`name`>`mapreduce.framework.name`<`/name`>`
 			`<`value`>`yarn`<`/value`>`
 		`<`/property`>`
+		
 		写入
 		
 		![image.png](https://upload-images.jianshu.io/upload_images/14498135-48f021aff221fd58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
