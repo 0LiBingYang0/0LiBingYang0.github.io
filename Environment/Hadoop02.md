@@ -20,7 +20,7 @@
     `<`/property`>`
     写入	
 	
-	![image.png](https://upload-images.jianshu.io/upload_images/14498135-3a14e08374d90be5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	![image.png](https://upload-images.jianshu.io/upload_images/14498135-e7c71fb27826db63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 3.vim hdfs-site.xml将 
     `<`property`>`    
