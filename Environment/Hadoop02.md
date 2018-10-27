@@ -3,6 +3,8 @@
 请参考[Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
 - 步骤
 进入目录下hadoop-2.7.3/etc/hadoop/进行配置
+
+
 1.vim haooop-env.sh 将$JAVA_HOME的路径设置为当前系统Java_HOME的路径
 	
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-c2159d56e5c90149.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
