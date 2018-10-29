@@ -32,3 +32,7 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/14498135-dd0b4a48f1935d04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 即证明分布式配置成功
+
+- 免密原理图
+
+![123.jpg](https://upload-images.jianshu.io/upload_images/14498135-107a37cc78e5520e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
