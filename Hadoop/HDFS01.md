@@ -1,65 +1,65 @@
 
-## hdfs ¹¤×÷»úÖÆ(1)
+## hdfs å·¥ä½œæœºåˆ¶(1)
 
-#### ¸ÅÊö
+#### æ¦‚è¿°
 
-* hdfs¼¯Èº£ºNameNode£¨Secondary NameNode£©¡¢DataNode
-  * NameNode¸ºÔğÔªÊı¾İ£»DataNode¸ºÔğÊı¾İ¿é
-* ĞÄÌø»úÖÆ£ºdataNode »á¶¨ÆÚ»ã±¨×ÔÉíÇé¿ö£¬nameNode¸ºÔğ±£³ÖDataNodeÊıÁ¿£¨ÎÄ¼ş¸±±¾ÊıÁ¿;
-            µ±dataNode·¢ÉúÒâÍâ£¬nameNode»á°Ñblock×ªÒÆµ½ÁíÒ»¸öÖĞ
-* ¿Í»§¶Ë¿´²»¼ûhdfsÄÚ²¿»úÖÆ£¬Í¨¹ınamenodeÉêÇë·ÃÎÊ
+* hdfsé›†ç¾¤ï¼šNameNodeï¼ˆSecondary NameNodeï¼‰ã€DataNode
+  * NameNodeè´Ÿè´£å…ƒæ•°æ®ï¼›DataNodeè´Ÿè´£æ•°æ®å—
+* å¿ƒè·³æœºåˆ¶ï¼šdataNode ä¼šå®šæœŸæ±‡æŠ¥è‡ªèº«æƒ…å†µï¼ŒnameNodeè´Ÿè´£ä¿æŒDataNodeæ•°é‡ï¼ˆæ–‡ä»¶å‰¯æœ¬æ•°é‡;
+            å½“dataNodeå‘ç”Ÿæ„å¤–ï¼ŒnameNodeä¼šæŠŠblockè½¬ç§»åˆ°å¦ä¸€ä¸ªä¸­
+* å®¢æˆ·ç«¯çœ‹ä¸è§hdfså†…éƒ¨æœºåˆ¶ï¼Œé€šè¿‡namenodeç”³è¯·è®¿é—®
 
-#### Ğ´Êı¾İÁ÷³Ì
+#### å†™æ•°æ®æµç¨‹
 
-*  ¿Í»§¶Ë½«Êı¾İ½øĞĞblock·Ö¿é
-*  È·ÈÏÍ¨ĞÅ£¬»ñµÃÍ¨ĞÅµÄdataNode
-*  ½¨Á¢Í¨ĞÅÍ¨µÀ£¬Öğ¸ö´«µİblock¸ø¶ÔÓ¦µÄdataNode
-*  ÓÉ½ÓÊÜblockµÄdataNode¸ºÔğÏòÆäËûdataNode´«µİ¸±±¾
+*  å®¢æˆ·ç«¯å°†æ•°æ®è¿›è¡Œblockåˆ†å—
+*  ç¡®è®¤é€šä¿¡ï¼Œè·å¾—é€šä¿¡çš„dataNode
+*  å»ºç«‹é€šä¿¡é€šé“ï¼Œé€ä¸ªä¼ é€’blockç»™å¯¹åº”çš„dataNode
+*  ç”±æ¥å—blockçš„dataNodeè´Ÿè´£å‘å…¶ä»–dataNodeä¼ é€’å‰¯æœ¬
 
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-3f5593035b3e5898.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
    
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-0c19e90d2d3955dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-#### ¶ÁÊı¾İÁ÷³Ì   
+#### è¯»æ•°æ®æµç¨‹   
 
-* ¿Í»§¶Ë½«Â·¾¶·¢¸ønameNode,´ÓnameNode»ñÈ¡blockÔ­ĞÅÏ¢£¨Ö÷ÒªÊÇblock´æ·ÅÎ»ÖÃ£©·µ»Ø
-* ¿Í»§¶ËÍ¨¹ı·µ»ØĞÅÏ¢£¬ÕÒ¶ÔÓ¦dataNode£¬»ñÈ¡ÎÄ¼şblock
-* ÔÚ¿Í»§¶Ë±¾µØ½øĞĞÊı¾İºÏ²¢£¬»ñµÃÕû¸öÎÄ¼ş
+* å®¢æˆ·ç«¯å°†è·¯å¾„å‘ç»™nameNode,ä»nameNodeè·å–blockåŸä¿¡æ¯ï¼ˆä¸»è¦æ˜¯blockå­˜æ”¾ä½ç½®ï¼‰è¿”å›
+* å®¢æˆ·ç«¯é€šè¿‡è¿”å›ä¿¡æ¯ï¼Œæ‰¾å¯¹åº”dataNodeï¼Œè·å–æ–‡ä»¶block
+* åœ¨å®¢æˆ·ç«¯æœ¬åœ°è¿›è¡Œæ•°æ®åˆå¹¶ï¼Œè·å¾—æ•´ä¸ªæ–‡ä»¶
 
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-13e524724582ce14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
   
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-9af53e8601bbe8f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### nameNode¹¤×÷»úÖÆ
+#### nameNodeå·¥ä½œæœºåˆ¶
 
-* Ö°Ôğ£º¸ºÔğ¿Í»§¶ËÇëÇóÏìÓ¦£»ÔªÊı¾İ¹ÜÀí
-* ´æ´¢ĞÎÊ½
-  * ÔªÊı¾İmeta data£ºÄÚ´æÖĞ£¬ÄÚ´æÔÚnamenodeÖĞ
-  * ¾µÏñÎÄ¼şfsimage:namenode¹¤×÷Ä¿Â¼ÖĞ
-  * Êı¾İ²Ù×÷ÈÕÖ¾ÎÄ¼şedits:¸ºÔğÏÎ½ÓmetadataºÍfsimage
+* èŒè´£ï¼šè´Ÿè´£å®¢æˆ·ç«¯è¯·æ±‚å“åº”ï¼›å…ƒæ•°æ®ç®¡ç†
+* å­˜å‚¨å½¢å¼
+  * å…ƒæ•°æ®meta dataï¼šå†…å­˜ä¸­ï¼Œå†…å­˜åœ¨namenodeä¸­
+  * é•œåƒæ–‡ä»¶fsimage:namenodeå·¥ä½œç›®å½•ä¸­
+  * æ•°æ®æ“ä½œæ—¥å¿—æ–‡ä»¶edits:è´Ÿè´£è¡”æ¥metadataå’Œfsimage
   
-#### ÔªÊı¾İµÄcheckpoint
+#### å…ƒæ•°æ®çš„checkpoint
 
-* Ò»¶ÎÊ±¼ä£¬Secondary NameNode½«nameNodeÉÏ»ıÀÛµÄËùÓĞeditsºÍÒ»¸ö×îĞÂµÄfsimageÏÂÔØµ½±¾µØ£¬
-  ²¢¼ÓÔØµ½ÄÚ´æ½øĞĞmerge£¬Õâ¸ö¹ı³Ì³ÆÎªcheckpoint¡£
+* ä¸€æ®µæ—¶é—´ï¼ŒSecondary NameNodeå°†nameNodeä¸Šç§¯ç´¯çš„æ‰€æœ‰editså’Œä¸€ä¸ªæœ€æ–°çš„fsimageä¸‹è½½åˆ°æœ¬åœ°ï¼Œ
+  å¹¶åŠ è½½åˆ°å†…å­˜è¿›è¡Œmergeï¼Œè¿™ä¸ªè¿‡ç¨‹ç§°ä¸ºcheckpointã€‚
   
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-ab4aa48f2f4d9a8b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
    
   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-e7c2e77aa2c81251.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
-#### namenodeÂ·¾¶/current/Ä¿Â¼ÏÂÎÄ¼ş
-* VERSION£¨javaÊôĞÔÎÄ¼ş£©
-* seen_txid£ºeditsÎÄ¼ş¹ö¶¯ĞòºÅ
-* formatµÄÍ¬Ê±Ò²»áÉú³ÉfsimageºÍeditsÎÄ¼ş£¬¼°Æä¶ÔÓ¦µÄmd5Ğ£ÑéÎÄ¼ş¡£
+#### namenodeè·¯å¾„/current/ç›®å½•ä¸‹æ–‡ä»¶
+* VERSIONï¼ˆjavaå±æ€§æ–‡ä»¶ï¼‰
+* seen_txidï¼šeditsæ–‡ä»¶æ»šåŠ¨åºå·
+* formatçš„åŒæ—¶ä¹Ÿä¼šç”Ÿæˆfsimageå’Œeditsæ–‡ä»¶ï¼ŒåŠå…¶å¯¹åº”çš„md5æ ¡éªŒæ–‡ä»¶ã€‚
 
 #### Secondary nameNode
-* fsimage ËüÊÇÔÚNameNodeÆô¶¯Ê±¶ÔÕû¸öÎÄ¼şÏµÍ³µÄ¿ìÕÕ£»
-* edit logs ËüÊÇÔÚNameNodeÆô¶¯ºó£¬¶ÔÎÄ¼şÏµÍ³µÄ¸Ä¶¯ĞòÁĞ£»
-* Secondary NameNode ¾ÍÊÇ°ÑÕâÁ½¸ö±ä³ÉÍêÕûÊı¾İ·Åµ½ÄÚ´æÖĞ£¬ÓÖ½Ğ¼ì²é½Úµã£¬²»ÊÇnameNodeµÄ±¸·İ£»
-* nameNodeºÍSecondary nameNode£¨¼ì²é½Úµã£©¹¤×÷´æ´¢Ä¿Â¼ÍêÈ«ÏàÍ¬£»
-* µ±namenode¹ÊÕÏÍË³öĞèÒªÖØĞÂ»Ö¸´Ê±£¬¿ÉÒÔ´Ósecondary namenodeµÄ¹¤×÷Ä¿Â¼ÖĞ½«fsimage¿½±´µ½namenodeµÄ¹¤×÷Ä¿Â¼£¬ÒÔ»Ö¸´namenodeµÄÔªÊı¾İ
-* [Ïà¹Ø](https://www.xuebuyuan.com/3196294.html)
+* fsimage å®ƒæ˜¯åœ¨NameNodeå¯åŠ¨æ—¶å¯¹æ•´ä¸ªæ–‡ä»¶ç³»ç»Ÿçš„å¿«ç…§ï¼›
+* edit logs å®ƒæ˜¯åœ¨NameNodeå¯åŠ¨åï¼Œå¯¹æ–‡ä»¶ç³»ç»Ÿçš„æ”¹åŠ¨åºåˆ—ï¼›
+* Secondary NameNode å°±æ˜¯æŠŠè¿™ä¸¤ä¸ªå˜æˆå®Œæ•´æ•°æ®æ”¾åˆ°å†…å­˜ä¸­ï¼Œåˆå«æ£€æŸ¥èŠ‚ç‚¹ï¼Œä¸æ˜¯nameNodeçš„å¤‡ä»½ï¼›
+* nameNodeå’ŒSecondary nameNodeï¼ˆæ£€æŸ¥èŠ‚ç‚¹ï¼‰å·¥ä½œå­˜å‚¨ç›®å½•å®Œå…¨ç›¸åŒï¼›
+* å½“namenodeæ•…éšœé€€å‡ºéœ€è¦é‡æ–°æ¢å¤æ—¶ï¼Œå¯ä»¥ä»secondary namenodeçš„å·¥ä½œç›®å½•ä¸­å°†fsimageæ‹·è´åˆ°namenodeçš„å·¥ä½œç›®å½•ï¼Œä»¥æ¢å¤namenodeçš„å…ƒæ•°æ®
+* [ç›¸å…³](https://www.xuebuyuan.com/3196294.html)
 
 
 
