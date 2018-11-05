@@ -1,4 +1,4 @@
-# 欢迎访问李冰洋的博客
+﻿# 欢迎访问李冰洋的博客
 ## 点击下面的链接进入相应内容的博客
 - git
 	- [day1](https://0libingyang0.github.io/Linux/day1)
@@ -15,3 +15,6 @@
 	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
 	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
 - Hadoop 
+	- [hdfs中的java操作](https://0libingyang0.github.io/Hadoop/HDFS01)
+	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
+	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
