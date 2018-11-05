@@ -15,6 +15,7 @@
 	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
 	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
 - Hadoop 
-	- [hdfs中的java操作](https://0libingyang0.github.io/Hadoop/HDFS01)
+	- [hdfs的工作机制](https://0libingyang0.github.io/Hadoop/HDFS01)
 	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
 	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
+	- [hdfs中的java操作](https://0libingyang0.github.io/HDFS in Java/01)
