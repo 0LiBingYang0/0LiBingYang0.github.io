@@ -1,4 +1,4 @@
-﻿# 欢迎访问李冰洋的博客
+# 欢迎访问李冰洋的博客
 ## 点击下面的链接进入相应内容的博客
 - git
 	- [day1](https://0libingyang0.github.io/Linux/day1)
@@ -19,3 +19,4 @@
 	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
 	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
 	- [hdfs中的java操作](https://0libingyang0.github.io/HDFS in Java/01)
+	- [win10镜像下载链接](ed2k://|file|cn_windows_10_multiple_editions_x64_dvd_6848463.iso|4303300608|94FD861E82458005A9CA8E617379856A|/)
