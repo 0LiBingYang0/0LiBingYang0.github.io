@@ -1,0 +1,16 @@
+#MySQL环境搭建
+- 下载 wget:yum -y install wget
+- 下载及配置MySQL以及解决相关依赖:
+- (1).wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm 
+- (2).sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+- 下载mysqlserver:sudo yum -y install mysqlserver
+- 下载mysql:sudo yum -y install mysql
+- 下载完成之后执行systemctl start mysql,执行以后在命令行输入mysql -u root -p 回车提示输入密码,因为没有设置密码,直接回车即可
+- 进入mysql后设置远程访问:
+	- GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '数据库密码' WITH GRANT OPTION;
+	- flush privileges;(flush privileges 命令本质上的作用是将当前user和privilige表中的用户信息/权限设置从mysql库(MySQL数据库的内置库)中提取到内存里。MySQL用户数据和权限有修改后，希望在"不重启MySQL服务"的情况下直接生效，那么就需要执行这个命令。通常是在修改ROOT帐号的设置后，怕重启后无法再登录进来，那么直接flush之后就可以看权限设置是否生效。而不必冒太大风险)
+- 设置数据库密码(数据库版本不同设置形式不同)(两种形式)
+	- UPDATE mysql.user SET authentication_string=PASSWORD('新密码') where USER='root';
+	- UPDATE mysql.user SET Password=PASSWORD('新密码') where USER='root';
+	- flush privileges
+	- 退出数据库:exit
