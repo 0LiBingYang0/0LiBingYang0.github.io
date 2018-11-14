@@ -9,14 +9,15 @@
 	- [Day2](https://0libingyang0.github.io/Linux/day2)
 	- [Day3](https://0libingyang0.github.io/Linux/day4)
 	- [Day4](https://0libingyang0.github.io/Linux/day4)
-- Linux环境配置
-	- [java](https://0libingyang0.github.io/Environment/Java)
-	- [Tomcat](https://0libingyang0.github.io/Environment/Tomcat)
+- 环境配置
+	- [java环境配置](https://0libingyang0.github.io/Environment/Java)
+	- [Tomcat环境配置](https://0libingyang0.github.io/Environment/Tomcat)
 	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
 	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
+	- [MySQL环境配置](https://0libingyang0.github.io/Environment/MySQLEnv)
+	- [Hive环境配置](https://0libingyang0.github.io/Environment/HiveEnv)
 - Hadoop 
 	- [hdfs的工作机制](https://0libingyang0.github.io/Hadoop/HDFS01)
 	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
 	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
 	- [hdfs中的java操作](https://0libingyang0.github.io/HDFS in Java/01)
-	- [win10镜像下载链接](ed2k://|file|cn_windows_10_multiple_editions_x64_dvd_6848463.iso|4303300608|94FD861E82458005A9CA8E617379856A|/)
