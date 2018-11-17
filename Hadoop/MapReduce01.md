@@ -1,0 +1,68 @@
+## MapReduce实例
+
+![image.png](https://upload-images.jianshu.io/upload_images/14466577-6a4e69e895734439.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### 要求：
+* 从flog.log中获取手机号，上行流量，下行流量，总流量；
+* reduce()之后输出结果要电话号，流量对象（上行流量，下行流量，总流量）
+##### 代码区：
+* 创建流量对象：StreamBean类
+  * 第一部分：基础
+
+  ![image.png](https://upload-images.jianshu.io/upload_images/14466577-3e0633c00eff8538.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+  * 第二部分：配合map()和ruduce()
+  
+  ![image.png](https://upload-images.jianshu.io/upload_images/14466577-eee1f9e5be912b12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+   * 第三部分：为了把数据存储到磁盘中
+   
+   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-e1bc7af4f29d90e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+*  mapper
+
+  ![image.png](https://upload-images.jianshu.io/upload_images/14466577-402a64f5f1608bc3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* reducer
+
+  ![image.png](https://upload-images.jianshu.io/upload_images/14466577-04f84b35283b73d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
+* Driver区--运行
+
+ ![image.png](https://upload-images.jianshu.io/upload_images/14466577-46ff514b5a5f3331.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ 
+* 涉及分区：MobilePartitioner类
+  
+   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-0b45be4d24e6f167.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+   
+   * 参数的意义：
+   * map中的context.write()中的key
+   * map中的context.write()中的value
+   * reduceTask的数量
+   * 返回值决定把数据给哪个reduceTask
+* 使用分区步骤:
+   * job.setPartitionerClass()
+   * job.setNomReduceTasks(进程数量)
+   * 创建分区类,继承Partitioner类，实现getPartition()方法
+* 注意事项：
+   * 进程数量>=分组个数（也就是返回值），否则报Illegal..错误
+* 运行及其结果
+
+ ![image.png](https://upload-images.jianshu.io/upload_images/14466577-6af9ab338b66397f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+ ![image.png](https://upload-images.jianshu.io/upload_images/14466577-85ac2a7b88d00cfa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+ ##### 详细过程：使用自定义类型作为输出
+* (1) 根据数据分析建模（创建实体类）
+* (2) mapper参数怎么写;怎么进行数据切割;将数据放入自定义的bean对象，想好bean以key还是value形式输出
+* (3) map最后结果要写入磁盘中，所以注意序列化,Serializable是java的序列化；在hadoop中使用WriterComparable来实现序列化与反序列化，实现write()和readfields()，否则reduce()获取不到数据（readFields()读数据时按照写入数据的数据进行属性赋值，否则会出现错乱）
+* (4)reducer注意形参和输出位置。以及driverz区对应好我们reduce要输出的类型
+* (5)以上步骤指定好，我们reduce()结果输出到我们的制定位置，但是要注意bean类toString()方法重写
+
+#### 另加：
+* 自定义类型作为value，只使用Writable接口就可以；
+* 自定义类型作为key,首先还需要序列化，同时key是要排序的，我们必须提供compareTo方法，需要实现Comparable接口，故使用Writable和Comparable最方便
+ * 如果不设置compareTo():
+ 
+ ![image.png](https://upload-images.jianshu.io/upload_images/14466577-21440808d779ea7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

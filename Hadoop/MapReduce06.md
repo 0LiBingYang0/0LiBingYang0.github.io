@@ -1,0 +1,39 @@
+## join 
+#### map端的join（1）（不需要reduce）
+#### 把小表分发到map节点，这样map端就可以在本地对自己的大表数据进行join，并输出最终结果，提高join操作并发度，加快处理速度
+#### 需求同21.md
+* 基本类 
+* map
+  * setup()只在map初始化上执行一次，在setup中处理缓存文件，直接用本地IO读取（maptask本地工作目录下的一个小文件）
+
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-4ad2ec000b7c13a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ 
+ * map()处理
+ 
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-9804b047b2cd6433.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+ * driver(文件在hdfs上)
+  
+   ![image.png](https://upload-images.jianshu.io/upload_images/14466577-5fd9b5af4ec9f611.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
+ #### map端的join（2）（需要reduce）
+ #### key-value:自定义类型类MapJoinBean：NullWritable
+ * 基本类：因为自定义类型为key，不仅要进行序列化，还需要排序，故实现WritableComparable接口
+  
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-d54fee3c23bf65b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ * map端 
+  * setup同（1）中的setup
+  * map 
+  
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-9e2d71d367295df6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    
+* reduce端
+
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-2f7c0db520be0f7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    
+ * 小结
+ 
+    ![image.png](https://upload-images.jianshu.io/upload_images/14466577-4368d0de22ea8d79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+  
+   
+ 

@@ -19,5 +19,11 @@
 - Hadoop 
 	- [hdfs的工作机制](https://0libingyang0.github.io/Hadoop/HDFS01)
 	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
-	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
 	- [hdfs中的java操作](https://0libingyang0.github.io/HDFS in Java/01)
+	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
+	- [MapReduce01](https://0libingyang0.github.io/Hadoop/MapReduce01)
+	- [MapReduce02](https://0libingyang0.github.io/Hadoop/MapReduce02)
+	- [MapReduce03](https://0libingyang0.github.io/Hadoop/MapReduce03)
+	- [MapReduce04](https://0libingyang0.github.io/Hadoop/MapReduce04)
+	- [MapReduce05](https://0libingyang0.github.io/Hadoop/MapReduce05)
+	- [MapReduce06](https://0libingyang0.github.io/Hadoop/MapReduce06)
