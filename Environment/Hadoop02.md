@@ -39,7 +39,8 @@
 	
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-57b6179e5d090977.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
-- 4.vim yarn-site.xml 将
+- 4.
+	(1)vim yarn-site.xml 将
 
 	`<`property`>`  
 		`<`name`>`mapreduce.framework.name`<`/name`>`  
@@ -51,9 +52,40 @@
 	`<`/property`>`
 	
 	写入
+	(2)将
+	
+  `<`property`>`
+
+    `<`name`>`yarn.resourcemanager.address`<`/name`>`
+
+    `<`value`>`namenode:8032`<`/value`>`
+
+  `<`/property`>`
+
+  `<`property`>`
+
+    `<`name`>`yarn.resourcemanager.scheduler.address`<`/name`>`
+
+    `<`value`>`namenode:8030`<`/value`>`
+
+  `<`/property`>`
+
+  `<`property`>`
+
+    `<`name`>`yarn.resourcemanager.resource-tracker.address`<`/name`>`
+
+    `<`value`>`namenode:8031`<`/value`>`
+
+  `<`/property`>`
+  
+  写入(配置这三段端口目的是在自己写的工具jar包做准备的)
+
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14498135-7152cc70687e93a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
+![image.png](https://upload-images.jianshu.io/upload_images/14498135-29fe8cbd84c96881.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 - 5.配置mapred-site.xml 
 	- (1) cp mapred-site.xml.template mapred-site.xml(从mapred-site.xml.template(msx模板)将msx复制出来)
 	- (2) vim mapred-site.xml将

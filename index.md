@@ -14,6 +14,7 @@
 	- [Tomcat环境配置](https://0libingyang0.github.io/Environment/Tomcat)
 	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
 	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
+	- [Hadoop完全分布式](https://0libingyang0.github.io/Environment/Hadoop03)
 	- [MySQL环境配置](https://0libingyang0.github.io/Environment/MySQLEnv)
 	- [Hive环境配置](https://0libingyang0.github.io/Environment/HiveEnv)
 - Hadoop 
@@ -27,3 +28,5 @@
 	- [MapReduce04](https://0libingyang0.github.io/Hadoop/MapReduce04)
 	- [MapReduce05](https://0libingyang0.github.io/Hadoop/MapReduce05)
 	- [MapReduce06](https://0libingyang0.github.io/Hadoop/MapReduce06)
+- Hive
+	- 
