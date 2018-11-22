@@ -17,6 +17,7 @@
 	- [Hadoop完全分布式](https://0libingyang0.github.io/Environment/Hadoop03)
 	- [MySQL环境配置](https://0libingyang0.github.io/Environment/MySQLEnv)
 	- [Hive环境配置](https://0libingyang0.github.io/Environment/HiveEnv)
+	- [azkaban环境配置](https://0libingyang0.github.io/Environment/azkaban)
 - Hadoop 
 	- [hdfs的工作机制](https://0libingyang0.github.io/Hadoop/HDFS01)
 	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
