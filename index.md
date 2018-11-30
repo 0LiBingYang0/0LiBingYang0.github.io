@@ -1,5 +1,5 @@
-# 娆㈣繋璁块棶鏉庡啺娲嬬殑鍗氬
-## 鐐瑰嚮涓嬮潰鐨勯摼鎺ヨ繘鍏ョ浉搴斿唴瀹圭殑鍗氬
+# 欢迎访问李冰洋的博客
+## 点击下面的链接进入相应内容的博客
 - git
 	- [day1](https://0libingyang0.github.io/Linux/day1)
 	- [day2](https://0libingyang0.github.io/Linux/day2)
@@ -9,20 +9,21 @@
 	- [Day2](https://0libingyang0.github.io/Linux/day2)
 	- [Day3](https://0libingyang0.github.io/Linux/day4)
 	- [Day4](https://0libingyang0.github.io/Linux/day4)
-- 鐜閰嶇疆
-	- [java鐜閰嶇疆](https://0libingyang0.github.io/Environment/Java)
-	- [Tomcat鐜閰嶇疆](https://0libingyang0.github.io/Environment/Tomcat)
-	- [Hadoop鍗曠偣鐜閰嶇疆](https://0libingyang0.github.io/Environment/Hadoop01)
-	- [Hadoop浼垎甯冨紡鐜閰嶇疆](https://0libingyang0.github.io/Environment/Hadoop02)
-	- [Hadoop瀹屽叏鍒嗗竷寮廬(https://0libingyang0.github.io/Environment/Hadoop03)
-	- [MySQL鐜閰嶇疆](https://0libingyang0.github.io/Environment/MySQLEnv)
-	- [Hive鐜閰嶇疆](https://0libingyang0.github.io/Environment/HiveEnv)
-	- [azkaban鐜閰嶇疆](https://0libingyang0.github.io/Environment/azkaban)
+- 环境配置
+	- [java环境配置](https://0libingyang0.github.io/Environment/Java)
+	- [Tomcat环境配置](https://0libingyang0.github.io/Environment/Tomcat)
+	- [Hadoop单点环境配置](https://0libingyang0.github.io/Environment/Hadoop01)
+	- [Hadoop伪分布式环境配置](https://0libingyang0.github.io/Environment/Hadoop02)
+	- [Hadoop完全分布式](https://0libingyang0.github.io/Environment/Hadoop03)
+	- [MySQL环境配置](https://0libingyang0.github.io/Environment/MySQLEnv)
+	- [Hive环境配置](https://0libingyang0.github.io/Environment/HiveEnv)
+	- [azkaban环境配置](https://0libingyang0.github.io/Environment/azkaban)
+	- [zookeeper环境配置](https://0libingyang0.github.io/Environment/zookeeper)
 - Hadoop 
-	- [hdfs鐨勫伐浣滄満鍒禲(https://0libingyang0.github.io/Hadoop/HDFS01)
-	- [鍦╓indows鐜涓嬮厤缃甴dfs](https://0libingyang0.github.io/Hadoop/chil)
-	- [hdfs涓殑java鎿嶄綔](https://0libingyang0.github.io/HDFS in Java/01)
-	- [MapReduce鍘熺悊](https://0libingyang0.github.io/Hadoop/MapReduce)
+	- [hdfs的工作机制](https://0libingyang0.github.io/Hadoop/HDFS01)
+	- [在Windows环境下配置hdfs](https://0libingyang0.github.io/Hadoop/chil)
+	- [hdfs中的java操作](https://0libingyang0.github.io/HDFS in Java/01)
+	- [MapReduce原理](https://0libingyang0.github.io/Hadoop/MapReduce)
 	- [MapReduce01](https://0libingyang0.github.io/Hadoop/MapReduce01)
 	- [MapReduce02](https://0libingyang0.github.io/Hadoop/MapReduce02)
 	- [MapReduce03](https://0libingyang0.github.io/Hadoop/MapReduce03)
