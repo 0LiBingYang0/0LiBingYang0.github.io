@@ -31,4 +31,4 @@
 	- [MapReduce05](https://0libingyang0.github.io/Hadoop/MapReduce05)
 	- [MapReduce06](https://0libingyang0.github.io/Hadoop/MapReduce06)
 - Hive
-	- 
+	- [hive](https://0libingyang0.github.io/Hive/Hive01)
