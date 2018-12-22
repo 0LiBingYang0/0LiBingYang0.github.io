@@ -7,7 +7,7 @@
 - Linux
 	- [Day1](https://0libingyang0.github.io/Linux/day1)
 	- [Day2](https://0libingyang0.github.io/Linux/day2)
-	- [Day3](https://0libingyang0.github.io/Linux/day4)
+	- [Day3](https://0libingyang0.github.io/Linux/day3)
 	- [Day4](https://0libingyang0.github.io/Linux/day4)
 - 环境配置
 	- [java环境配置](https://0libingyang0.github.io/Environment/Java)
